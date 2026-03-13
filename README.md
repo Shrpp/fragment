@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-MIT-white?style=flat-square)
 ![Deploy](https://img.shields.io/badge/deploy-Vercel-black?style=flat-square&logo=vercel)
 
-Personal portfolio with a Tron × Marathon visual aesthetic. Live GitHub repo stats, Medium blog feed, and a contact form — all without a backend.
+Personal portfolio with a Cyberpunk 2077 × Marathon visual aesthetic. Live GitHub repo stats, Medium blog feed, and a contact form — all without a backend.
 
 ---
 
