@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Nav      from './components/Nav'
 import Hero     from './components/Hero'
 import Stats    from './components/Stats'
@@ -11,6 +13,8 @@ import Cursor   from './components/Cursor'
 export default function App() {
   return (
     <>
+      <Analytics />
+      <SpeedInsights />
       <Cursor />
       <Nav />
       <div className="content-wrap">
