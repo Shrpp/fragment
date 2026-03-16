@@ -55,7 +55,7 @@ export default function About() {
                       max-lg:grid-cols-1 max-lg:gap-10">
 
 
-        <div className="flex justify-center max-lg:justify-start">
+        <div className="flex justify-center max-lg:justify-start max-sm:justify-center">
           <HUDPhoto
             src="/photo.jpg"
             name="L.LIMA"

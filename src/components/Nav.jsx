@@ -30,7 +30,7 @@ export default function Nav() {
         <span className="text-neon text-glow-lg font-bold">]</span>
       </div>
 
-      <div className="flex gap-9">
+      <div className="flex gap-9 max-sm:hidden">
         {LINKS.map(({ label, id }) => (
           <a
             key={id}
@@ -49,7 +49,7 @@ export default function Nav() {
         ))}
       </div>
 
-      <div className="flex items-center gap-1.5 font-mono text-[11px] tracking-[0.06em]">
+      <div className="flex items-center gap-1.5 font-mono text-[11px] tracking-[0.06em] max-sm:hidden">
         <span className="w-1 h-1 rounded-full bg-neon shrink-0 pulse-neon shadow-neon-sm" />
         <span className="text-[9px] tracking-[0.14em] text-neon/50 pulse-neon">SYS:</span>
         <span className="text-neon text-glow-sm flicker tabular-nums">{time}</span>
